@@ -12,6 +12,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .another-color{
     color: orange;
 }
@@ -37,6 +40,33 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.third-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.third-enter{
+    display: flex;
+}
+.div-1{
+    width: 50%;
+    margin-bottom: 150px;
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+#left-border{
+    border-left: 7px;
+    border-image: linear-gradient(rgb(250, 102, 102), orange);
+    border-image-slice: 1;
+}
+#left-border-2{
+    border-left: 7px;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
 footer{
     text-align: center;
