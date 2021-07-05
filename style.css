@@ -1,9 +1,31 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.fast-section{
+    display: flex;
+}
 h1{
     font-size: 50px;
+
 }
 .another-color{
     color: orange;
+}
+.one-sec{
+    padding-left: 5%;
+    width: 50%
+}
+.one-sec img{
+    width: 80%;
+}
+.button{
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(red, orange);
+    font-weight: 700;
+    padding: 10px 40px;
+}
+footer{
+    text-align: center;
 }
