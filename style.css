@@ -1,18 +1,22 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .fast-section{
-    display: flex;
+    display: flex; 
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 h1{
     font-size: 50px;
-
 }
 .another-color{
     color: orange;
 }
 .one-sec{
-    padding-left: 5%;
+    padding-left: 6%;
     width: 50%
 }
 .one-sec img{
@@ -22,9 +26,12 @@ h1{
     color: white;
     border-radius: 5px;
     text-decoration: none;
-    background-image: linear-gradient(red, orange);
+    background-image: linear-gradient(rgb(250, 102, 102), orange);
     font-weight: 700;
     padding: 10px 40px;
+}
+.mar-top{
+    margin-top: 180px;
 }
 footer{
     text-align: center;
