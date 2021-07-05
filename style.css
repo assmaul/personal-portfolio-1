@@ -31,7 +31,12 @@ h1{
     padding: 10px 40px;
 }
 .mar-top{
-    margin-top: 180px;
+    margin-top: 170px;
+}
+.sedond-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 footer{
     text-align: center;
