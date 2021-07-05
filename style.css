@@ -59,12 +59,12 @@ h2{
     border-radius: 10px;
 }
 #left-border{
-    border-left: 7px;
+    border-left: 7px solid;
     border-image: linear-gradient(rgb(250, 102, 102), orange);
     border-image-slice: 1;
 }
 #left-border-2{
-    border-left: 7px;
+    border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
